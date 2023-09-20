@@ -1,0 +1,506 @@
+.hidden {
+    display: none;
+}
+
+#dropdown-menu {
+    position: absolute;
+    background-color: white;
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    right: 10px;
+}
+
+#dropdown-menu li {
+    padding: 10px;
+    font-family: Verdana, serif;
+}
+
+#dropdown-menu li:hover{
+    background-color: #eaeaea;
+}
+
+#dropdown-button {
+    background-color: white;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.main_part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Verdana,serial;
+    text-align: center;
+}
+.main_part span{
+    color: #129afe;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#search-input {
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    outline: none;
+}
+
+#search-button {
+    background-color: #129afe;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #0e7bcb
+}
+
+.fa-magnifying-glass {
+    margin-left: 12px;
+}
+
+.input-dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    max-width: 270px;
+    border-left: 1px solid #cccccc ;
+    border-right: 1px solid #cccccc ;
+    border-radius: 20px;
+}
+
+.input-dropdown li{
+    list-style-type: none;
+    padding: 10px;
+    font-family: Verdana, serif;
+}
+
+.input-dropdown li span{
+    color: #129afe;
+}
+
+.input-dropdown li:hover{
+    background-color: #eaeaea;
+}
+
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.block{
+    text-align: left;
+    font-family: Verdana, serif;
+    width: 300px;
+    border: 2px solid #cccccc;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 10px;
+}
+
+.heading{
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.block span{
+    color: #129afe;
+}
+
+.block p{
+    margin-left: 20px;
+}
+
+.block img,
+.img_right{
+    float: right;
+    width: 30px;
+}
+
+.img_left{
+    float: left;
+    width: 30px;
+}
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.FAQ img{
+    width: 50px;
+    margin-top: 50px;
+}
+
+.FAQ h1{
+    font-family: Verdana,serif;
+}
+
+.list{
+    text-align: center;
+    font-family: Verdana,serif;
+    list-style-type: none;
+}
+
+.list li{
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.pigeon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    font-family: Verdana, serif;
+    background-color: #000d40;
+    border-radius: 10% 10% 0 0 ;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer_button {
+    border: 2px solid #129afe;
+    background-color:#129afe;
+    border-radius: 20px;
+    color: white;
+    padding: 7px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer_button:hover{
+    border: 2px solid #129afe;
+    background-color: white;
+    color: #129afe;
+}
+
+.footer_center {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.footer_main {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer_text {
+    text-align: left;
+    font-family: Verdana, serif;
+    padding: 20px;
+    margin: 10px;
+}
+
+.footer_heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 2px solid #129afe;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#footer-input {
+    border: white;
+    background-color: #000d40;
+    color: white;
+    padding: 10px;
+    flex-grow: 1;
+    outline: none;
+}
+
+#footer-button {
+    background-color: #129afe;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.footer_container:hover{
+    border-color: #4c5579;
+}
+
+#footer-button:hover {
+    background-color: #0e7bcb;
+}
+
+
+
+@media screen and (min-width: 1080px) {
+    .header {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .hey_practice {
+        margin-right: auto;
+        font-family: "Arial Black", serif;
+    }
+
+    .home_list,
+    .about_us_list,
+    .language_list {
+        display: none;
+    }
+
+    .home,
+    .about_us,
+    .language {
+        margin-left: 150px;
+        font-family: Verdana, serif;
+        cursor: pointer;
+        border: 2px solid transparent;
+        border-radius: 20px;
+        padding: 7px;
+        transition: border-color 0.3s;
+    }
+
+    .home:hover,
+    .about_us:hover {
+        border-color: #129afe;
+    }
+
+    .language {
+        border: 2px solid transparent;
+        border-radius: 20px;
+        padding: 7px;
+        font-family: Verdana, serif;
+        margin-left: 150px;
+        color: #129afe;
+    }
+
+    .notify {
+        font-family: Verdana, serif;
+        margin-left: 150px;
+        color: #129afe;
+        border: 2px solid #129afe;
+        border-radius: 20px;
+        padding: 7px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .notify:hover {
+        background-color: #129afe;
+        color: white;
+    }
+
+    .bar_icon,
+    .home_list,
+    .about_us_list,
+    .language_list {
+        display: none;
+    }
+
+    .icon {
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1080px) {
+    .header {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .hey_practice {
+        margin-right: auto;
+        font-family: "Arial Black", serif;
+    }
+
+    .home,
+    .about_us_list,
+    .language_list {
+        display: none;
+    }
+
+    .about_us {
+        margin-left: 150px;
+        font-family: Verdana, serif;
+        cursor: pointer;
+        border: 2px solid transparent;
+        border-radius: 20px;
+        padding: 7px;
+        transition: border-color 0.3s;
+    }
+
+    .about_us:hover {
+        border-color: #129afe;
+    }
+
+    .language {
+        border: 2px solid transparent;
+        border-radius: 20px;
+        padding: 7px;
+        font-family: Verdana, serif;
+        margin-left: 150px;
+        color: #129afe;
+    }
+
+    .notify {
+        font-family: Verdana, serif;
+        margin-left: 150px;
+        color: #129afe;
+        border: 2px solid #129afe;
+        border-radius: 20px;
+        padding: 7px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .notify:hover {
+        background-color: #129afe;
+        color: white;
+    }
+
+    .bar_icon {
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    .icon {
+        padding: 5px;
+    }
+}
+
+@media  screen and (min-width: 700px) and (max-width: 950px) {
+    .header {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .hey_practice {
+        margin-right: auto;
+        font-family: "Arial Black", serif;
+    }
+
+    .home,
+    .about_us,
+    .language_list {
+        display: none;
+    }
+
+    .language {
+        border: 2px solid transparent;
+        border-radius: 20px;
+        padding: 7px;
+        font-family: Verdana, serif;
+        margin-left: 150px;
+        color: #129afe;
+    }
+
+    .notify {
+        font-family: Verdana, serif;
+        margin-left: 150px;
+        color: #129afe;
+        border: 2px solid #129afe;
+        border-radius: 20px;
+        padding: 7px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .notify:hover {
+        background-color: #129afe;
+        color: white;
+    }
+
+    .bar_icon {
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    .icon {
+        padding: 5px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .hey_practice {
+        display: none;
+    }
+
+    .home,
+    .about_us,
+    .language {
+        display: none;
+    }
+
+    .notify {
+        font-family: Verdana, serif;
+        margin-left: 150px;
+        color: #129afe;
+        border: 2px solid #129afe;
+        border-radius: 20px;
+        padding: 7px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .notify:hover {
+        background-color: #129afe;
+        color: white;
+    }
+
+    .bar_icon {
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    .icon {
+        font-size: 22px;
+        margin-right: auto;
+    }
+
+}
